@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* learning css demo*/
+
+/* This was the first css rule I showed the class*/
+
+body {
+    background-color: rgba(185, 51, 51, 0.329);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    color:white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+display: inline-block;
+margin-top: 30px;
+margin-right: 20px;
+}
+nav li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+   
+nav li a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+main{
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700;
+    }
+    #hero{
+        width: 960px;
+    }
+    #hero:hover {
+        border-radius: 20px;
+        border: 6px solid red
+    }
+    main p {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .lower {
+        display: inline-block;
+        max-width: 30px;
+        margin: 10px;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    footer p {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: #0000FF;
+        hsla(211, 100%, 70%, 0.75)
+    }
+
+    
