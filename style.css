@@ -1,4 +1,6 @@
+
 body {
+  background-image: linear-gradient(to top, white, red);
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -6,15 +8,26 @@ body {
     line-height: 1.6;
     color: black;
   }
+.logo{
+  height: 180px;
+  width: 220px;
+  float: left;
+}
+.logo2 {
+  height: 180px;
+  width: 220px;
+  float: right;
 
+}
 header {
-    background-image: linear-gradient(to top, white, red, white,red);
+    background-image: linear-gradient(to top,white, red, white,red);
     text-align: center;
-    box-shadow: 5px 3px 7px 1px black;
+    box-shadow: 10px 4px 10px 5px black;
   }
 header:hover {
-  color: white;
+  color: red;
   background-color: red;
+  font-weight: bold;
 }
   h1 {
    font-size: 3.5rem;
@@ -24,29 +37,31 @@ header:hover {
     box-shadow: 5px 3px 7px 1px red;
   }
   .sub-titulo{
-    background-color: white;
+    background-image: linear-gradient(to left, red, white, red, white );
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: black;
-  
     font-weight: bold;
 
   }
   li {
-    font-size: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
     text-align: center;
     list-style: none;
     display: inline-block;
     margin: 0 0.5rem;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.1s;
     font-size: 1.5rem;
     }
   
   li:hover {
+    font-size: 30px;
     box-shadow: 5px 3px 7px 1px red;
-    color: blue;
+    color: red;
+    font-weight: bold;
   }
   
    a {
@@ -58,7 +73,7 @@ header:hover {
   
   .firstimg {
     display: flex;
-    width: 500px;
+    width: 300px;
     height: 300px;
   }
 
