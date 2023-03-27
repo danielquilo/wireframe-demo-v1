@@ -11,7 +11,7 @@ body {
     color: black;
   }
   img {
-    width: 80%;
+    float:right;    width: 80%;
     display: block;
   }
 .logoleft{
