@@ -1,63 +1,77 @@
-
+* {
+  box-sizing: border-box;
+}
 body {
   background-image: linear-gradient(to bottom,red, white, red);
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 400;
     letter-spacing: 0.01em;
     line-height: 1.6;
     color: black;
   }
-.logo{
-  height: 180px;
-  width: 220px;
+  img {
+    width: 80%;
+    display: block;
+  }
+.logoleft{
+  height: 100px;
+  width: 130px;
   float: left;
 }
-.logo2 {
-  height: 180px;
-  width: 220px;
+.logoright {
+  height: 100px;
+  width: 130px;
   float: right;
 
 }
 header {
-    text-align: center;
-    box-shadow: 10px 4px 10px 5px black;
-  }
-header:hover {
-  color: white;
-  background-color: red;
-  font-weight: bold;
+  background-image: linear-gradient(to bottom,white, red);
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.header-conatainer {
+  padding: 1.5rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
   h1 {
-   font-size: 3.5rem;
-    font-weight: 1000;
-    margin: 1rem;
-    font-weight: bold;
+   font-size:1.6rem;
+    font-weight:700;
+    margin:1rem;
+    font-weight:bold;
     
   }
-  .subtitulo:hover {
-   font-size: 2.0rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: black;
+  header:hover {
+    color: white;
+    background-color: red;
     font-weight: bold;
+  }
+  .subtitulo :hover {
+   color:white;
+   background-color: red; 
+   font-size:0.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-weight:bold;
 
   }
-  li {
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-    margin: 0 0.5rem;
-    cursor: pointer;
-    transition: 0.1s;
-    font-size: 1.5rem;
-    }
+  li { list-style: none;
+   display: inline-block;
+   margin: 0 0.5rem;
+   cursor: pointer;
+   transition: 0.5s;
+   }
   
  subtitulo , li:hover {
-    font-size: 30px;    
-    color: white;
+    font-size: 20px;    
+    color: rgb(135, 250, 236);
     font-weight: bold;
   }
   
@@ -67,13 +81,47 @@ header:hover {
     /* anchor element by default do not inherit from the parent, however if we add this value it will. */
     color: inherit;
   }
+  .main-container {
+    padding-top: 1rem;
+  }
   
-  .firstimg {
-    display: flex;
-    width: 300px;
-    height: 300px;
+  .hero-img {
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 2rem;        
+  }
+  .hero-text {
+    text-align: center;
+  }
+.liverpool-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+margin-bottom: 1rem;
+}
+.liverpool-img {
+  object-fit: cover;
+  object-position: bottom center;
   }
 
+  .img-text {
+    text-align: center;
+  }
+  .footer {
+    background-color: red;
+    text-align: center;
+  }
+.footer-container {
+  text-align:center;
+  padding: 2rem 0;
+}
+
+  @media(min-width:900px)
+h1 {
+  color:red;
+}
 
 
 
