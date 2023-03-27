@@ -21,7 +21,7 @@ console.log(message);
 
 let arsenalFan = confirm("I am an arsenal fan, do tou support arsenal"  +  user + "?")
 
-if(arsenalFan == true) {
+if(arsenalFan == false) {
     console.log("You're great");
 } else {
     console.log("you suck")
