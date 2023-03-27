@@ -50,3 +50,4 @@ function displayChampionsCup() {
 }
 
 displayChampionsCup();
+document.getElementById("demo").innerHTML = message;
