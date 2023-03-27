@@ -117,6 +117,7 @@ margin-bottom: 1rem;
   .footer {
     background-color: red;
     text-align: center;
+    font-size: 20px;
   }
 .footer-container {
   text-align:center;
