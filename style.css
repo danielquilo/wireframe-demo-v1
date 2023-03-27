@@ -124,11 +124,16 @@ margin-bottom: 1rem;
   padding: 2rem 0;
 }
 
-  @media(min-width:900px)
+.trophy {
+  width: 2rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  }
+@media(min-width: 900px){
 h1 {
   color:red;
 }
-
+}
 
 
   
