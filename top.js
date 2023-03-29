@@ -51,3 +51,16 @@ function displayChampionsCup() {
 
 displayChampionsCup();
 document.getElementById("demo").innerHTML = message;
+
+
+
+
+
+function greet(name) {
+  return "Hello, " + name;
+}
+greet("Grace Hopper");
+let greet = {
+  "Hello, " + name;
+}
+greet()
